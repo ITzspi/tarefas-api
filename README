@@ -1,35 +1,33 @@
 # 📌 Projeto: API de Gerenciamento de Tarefas
 
-## 📖 Descrição
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-Este projeto consiste no desenvolvimento de uma API REST utilizando **Spring Boot** para gerenciamento de tarefas.
-A aplicação permite realizar operações de **CRUD (Create, Read, Update e Delete)** com persistência em banco de dados **PostgreSQL**.
+## 📖 Descrição
+Este projeto consiste no desenvolvimento de uma API REST utilizando **Spring Boot** para gerenciamento de tarefas. A aplicação permite realizar operações de **CRUD (Create, Read, Update e Delete)** com persistência em banco de dados **PostgreSQL**.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-
-* Java 17
-* Spring Boot
-* Spring Data JPA
-* PostgreSQL
-* Lombok
-* Thunder Client (para testes)
+* **Java 17**
+* **Spring Boot**
+* **Spring Data JPA**
+* **PostgreSQL**
+* **Lombok**
+* **Thunder Client** (para testes)
 
 ---
 
 ## 🧱 Arquitetura do Projeto
+O projeto foi estruturado em camadas seguindo as melhores práticas de desenvolvimento:
 
-O projeto foi estruturado em camadas seguindo boas práticas:
-
-```
+```text
 com.felipe.tarefas
-│
-├── model.entity      → Entidade (Tarefa)
-├── repository        → Acesso ao banco (JPA)
-├── service           → Regras de negócio
-└── apiresource       → Controlador REST
-```
+├── model.entity    → Entidade (Tarefa)
+├── repository      → Acesso ao banco (JPA)
+├── service         → Regras de negócio
+└── apiresource     → Controlador REST
 
 ---
 
